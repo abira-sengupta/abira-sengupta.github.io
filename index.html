@@ -69,13 +69,38 @@ My birthplace is Kolkata. In 2019, I relocated to Dunedin, New Zealand, to pursu
     
 
 <h2>Fields of Research</h2>
-<ul>
-  <li><a href="ai.html">Expectation Event Calculus </a> </li>
-  <li><a href="ai.html">Artificial Intelligence </a> </li>
-  <li><a href="ai.html">Machine Learning </a> </li>
-  <li><a href="ai.html">Explainable AI </a> </li>
-  <li><a href="cv.html">Computer Vision</a> </li>
+<ul class="research-fields">
+  <li><a href="ai.html">Expectation Event Calculus</a></li>
+  <li><a href="ai.html">Artificial Intelligence</a></li>
+  <li><a href="ai.html">Machine Learning</a></li>
+  <li><a href="ai.html">Explainable AI</a></li>
+  <li><a href="cv.html">Computer Vision</a></li>
 </ul>
+
+<!-- Add this CSS to your <style> section or external stylesheet -->
+<style>
+  .research-fields {
+    display: flex;          /* Flexbox layout */
+    flex-wrap: wrap;        /* Allow items to wrap to the next line if necessary */
+    list-style-type: none;  /* Remove bullet points */
+    padding: 0;             /* Remove padding from list */
+  }
+
+  .research-fields li {
+    margin: 10px;           /* Add space between columns */
+    flex: 1 0 150px;        /* Flex property to set minimum width of each item */
+    text-align: center;     /* Center align the text */
+  }
+
+  .research-fields a {
+    text-decoration: none;  /* Remove underline from links */
+    color: #000;            /* Set text color */
+  }
+
+  .research-fields a:hover {
+    color: #007bff;         /* Change color on hover */
+  }
+</style>
 
 
     
