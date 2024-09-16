@@ -64,23 +64,69 @@ In my spare time, I enjoy gardening and listening to music. I also enjoy riding 
 <hr>
 
 
-
 <a name="Research areas"></a>
 <h2>Research Areas</h2>
-<ul class="research-fields">
-  <li><a href="collective_action.html">Collective Action</a></li>
-  <li><a href="event_calculus.html">Expectation Event Calculus</a></li>
-  <li><a href="ai.html">Artificial Intelligence</a></li>
-  <li><a href="ml.html">Machine Learning</a></li>
-  <li><a href="explainable_ai.html">Explainable AI</a></li>
-  <li><a href="multimodal_ai.html">Multimodal AI</a></li>
-  <li><a href="computer_vision.html">Computer Vision</a></li>
-</ul>
+
+<!-- Container for the research fields -->
+<div class="research-container">
+  <div class="research-box">
+    <a href="collective_action.html">Collective Action</a>
+  </div>
+  <div class="research-box">
+    <a href="event_calculus.html">Expectation Event Calculus</a>
+  </div>
+  <div class="research-box">
+    <a href="ai.html">Artificial Intelligence</a>
+  </div>
+  <div class="research-box">
+    <a href="ml.html">Machine Learning</a>
+  </div>
+  <div class="research-box">
+    <a href="explainable_ai.html">Explainable AI</a>
+  </div>
+  <div class="research-box">
+    <a href="multimodal_ai.html">Multimodal AI</a>
+  </div>
+  <div class="research-box">
+    <a href="computer_vision.html">Computer Vision</a>
+  </div>
+</div>
+
+
+.research-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.research-box {
+  background-color: #f0f0f0;  /* Light grey background */
+  border: 1px solid #ccc;      /* Light border */
+  border-radius: 8px;          /* Rounded corners */
+  padding: 20px;
+  margin: 10px;
+  width: 200px;                /* Box width */
+  text-align: center;          /* Center-align text */
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);  /* Subtle shadow */
+}
+
+.research-box a {
+  text-decoration: none;       /* Remove underline from links */
+  color: #333;                 /* Dark text color */
+  font-size: 18px;             /* Font size */
+  font-weight: bold;           /* Bold text */
+}
+
+.research-box:hover {
+  background-color: #e0e0e0;   /* Darken on hover */
+  transform: scale(1.05);      /* Slight zoom effect */
+  transition: 0.3s;            /* Smooth hover transition */
+}
+
+
 
     
 
-    
-</ul>
 
 <!-- Add this CSS to your <style> section or external stylesheet -->
 <style>
